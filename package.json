@@ -2,7 +2,7 @@
   "name": "telegraf",
   "version": "3.9.0",
    "babel": {
-	  "presets": ["env"]
+	  "presets": ["es2015","es2017"]
 	},
   "description": "📡 Modern Telegram bot framework",
   "license": "MIT",
