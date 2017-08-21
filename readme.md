@@ -84,3 +84,5 @@ There's some cool [examples](https://github.com/telegraf/telegraf/tree/master/ex
 
 ### Community quickstarts
 * [telegram-telegraf-bot](https://github.com/Finalgalaxy/telegram-telegraf-bot)
+### main bot is in lib/movie-bot.js
+*	Run by "node lib/movie-bot.js
