@@ -20,15 +20,18 @@
   },
   "files": [
     "docs",
-    "lib"
+    "lib",
+    "tmp"
   ],
   "main": "lib/index.js",
   "scripts": {
     "lint": "eslint .",
     "test": "ava test",
     "precommit": "npm run lint && npm test",
+	"alias": "my-movie-bot.now.sh",
     "start": "node lib/movie-bot.js"
   },
+  "alias": "my-movie-bot",
   "engines": {
     "node": ">=6.2.0"
   },
@@ -36,9 +39,12 @@
     "auto-bind": "^1.1.0",
     "axios": "^0.16.2",
     "body-parser": "^1.17.2",
+    "cheerio": "^1.0.0-rc.2",
     "debug": "^2.6.0",
     "express": "^4.15.3",
+    "node-cmd": "^3.0.0",
     "node-fetch": "^1.6.3",
+    "prepend": "^1.0.2",
     "sandwich-stream": "^1.0.0"
   },
   "devDependencies": {
